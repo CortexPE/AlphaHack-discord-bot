@@ -1,4 +1,4 @@
-var Discrod = require("discord.js");
+var Discord = require("discord.js");
 
 var alphaBot = new Discord.Client();
 
