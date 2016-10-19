@@ -1,5 +1,5 @@
-var Discord = require("discord.js");
-var alphaBot = new Discord.Client();
+const Discord = require("discord.js");
+const alphaBot = new Discord.Client();
 
 alphaBot.on('ready', () => {
   console.log('Ready for usage.');
@@ -11,4 +11,4 @@ if(message.content === '/help'){
   }
 });
 
-alphaBot.login("Bot token");
+alphaBot.login("your token");
