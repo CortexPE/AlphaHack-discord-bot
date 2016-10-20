@@ -2,12 +2,12 @@ const Discord = require("discord.js");
 const alphaBot = new Discord.Client();
 
 alphaBot.on('ready', () => {
-  console.log('Ready for usage.');
+  console.log('AlphaBot Ready For Action!');
 });
 
 alphaBot.on('message', message => {
 if(message.content === '/help'){
-      message.reply('There is no help at the moment.');
+      message.reply('There is no mercy for you...');
   }
 });
 
