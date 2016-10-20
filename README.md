@@ -4,5 +4,7 @@ A functional bot for discord servers.
 #Includes
 - [ ] Chat replys
 - [ ] Admin stuffs
+- [ ] Music
+- [ ] Memez
 
 More to come!
