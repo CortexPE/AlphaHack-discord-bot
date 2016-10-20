@@ -7,12 +7,14 @@ try {
 	process.exit();
 }
 console.log("Starting DiscordBot\nNode version: " + process.version + "\nDiscord.js version: " + Discord.version);
+
 try {
 	var msic = require("./music_plugin");
 	var msic_plugin = new msic();
 } catch(e){
 	console.log("couldn't load YT/Music plugin!\n"+e.stack);
-}
+} //Coming soon YT/Music Function
+
 const alphaBot = new Discord.Client();
 
 alphaBot.on('ready', () => {
